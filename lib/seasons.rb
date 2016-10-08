@@ -1,6 +1,6 @@
 module Seasons
   CA = {winter: ["Apple", "Orange", "Avacado"], spring: ["Pear", "Bannana", "Lemon"], summer: ["Cherry", "Watermelon", "Nectarine"], fall: ["Pear", "Bannana", "Lemon"]}.freeze
-  TX = {winter: ["Apple", "Orange", "Avacado"], spring: ["Pear", "Bannana", "Lemon"], summer: ["Cherry", "Watermelon", "Nectarine"], fall: ["Pear", "Bannana", "Lemon"]}.freeze
+  TX = {winter: ["Apple", "Orange", "Avacado"], spring: ["Pear", "Bannana", "Lemon"], summer: ["Cherry", "Orange", "Nectarine"], fall: ["Pear", "Bannana", "Lemon"]}.freeze
 
   def in_season?(date, state)
     season = get_season(date)
